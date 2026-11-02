@@ -1,0 +1,130 @@
+import { ArtStyle, VoicePersona } from '../types';
+
+export const ART_STYLES: ArtStyle[] = [
+  {
+    id: '3d_cinematic',
+    name: '3D Cinematic',
+    tagline: 'Pixar & Unreal 5 Aesthetic',
+    description: 'Volumetric god rays, subsurface scattering, cinematic bokeh, octane render fidelity.',
+    promptModifier: 'cinematic 3d render, unreal engine 5, octane render, volumetric lighting, subsurface scattering, photorealistic textures, shallow depth of field, 8k',
+    badgeColor: 'from-purple-500 to-indigo-600',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80',
+    sampleVideoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+  },
+  {
+    id: '2d_anime',
+    name: '2D Anime',
+    tagline: 'Makoto Shinkai & Ghibli Vibe',
+    description: 'Vibrant hand-drawn aesthetic, dramatic cloudscapes, glowing outlines, emotive lighting.',
+    promptModifier: 'high quality anime illustration, studio ghibli and makoto shinkai style, vivid lush colors, detailed line art, dynamic lighting, masterpiece',
+    badgeColor: 'from-pink-500 to-rose-600',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80',
+    sampleVideoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+  },
+  {
+    id: 'cyberpunk',
+    name: 'Cyberpunk',
+    tagline: 'Neo-Tokyo & Holographic Rain',
+    description: 'Iridescent neon reflections, wet asphalt, holographic advertisements, dystopian edge.',
+    promptModifier: 'cyberpunk aesthetic, neo-tokyo cityscape, rainy night, glowing purple and cyan neon lights, chromatic aberration, ray-traced reflections',
+    badgeColor: 'from-cyan-400 to-fuchsia-600',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80',
+    sampleVideoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4',
+  },
+  {
+    id: 'stop_motion',
+    name: 'Stop-Motion',
+    tagline: 'Laika & Claymation Craft',
+    description: 'Tactile clay fingerprints, miniature tilt-shift lenses, textured felt, charming staccato timing.',
+    promptModifier: 'claymation stop-motion animation, handcrafted clay figures, tactile fabric textures, miniature tilt-shift lens, armature movement, laika studios feel',
+    badgeColor: 'from-amber-500 to-orange-600',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80',
+    sampleVideoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+  },
+  {
+    id: 'photorealistic',
+    name: 'Photorealistic',
+    tagline: 'IMAX 70mm Film Fidelity',
+    description: 'Natural light diffusion, authentic camera lens flares, tactile skin pores and realistic physics.',
+    promptModifier: 'photorealistic 70mm imax film still, raw photography, natural lighting, sharp focus, color graded in da vinci resolve, hyper-detailed',
+    badgeColor: 'from-emerald-400 to-teal-600',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80',
+    sampleVideoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+  },
+  {
+    id: 'pixel_art',
+    name: 'Pixel Art',
+    tagline: '16-Bit Nostalgia & Chiptune Mood',
+    description: 'Crisp isometric pixels, limited retro color palette, dithering shading, arcade magic.',
+    promptModifier: '16-bit pixel art animation, intricate sprite work, retro arcade aesthetic, nostalgic vibrant palette, crisp pixel clusters, masterpiece pixel art',
+    badgeColor: 'from-violet-500 to-purple-800',
+    thumbnailUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80',
+    sampleVideoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+  },
+];
+
+export const VOICE_PERSONAS: VoicePersona[] = [
+  {
+    id: 'Zephyr',
+    name: 'Zephyr',
+    tagline: 'Cinematic & Expressive',
+    description: 'Deep, resonant, and narratively gripping. Ideal for cinematic movie trailers, epic documentaries, and dramatic world-building.',
+    gender: 'Deep / Narrative',
+    tone: 'Epic, Gripping, Resonant',
+    sampleText: 'In a world where starlight was stolen, one lone wanderer carried the last spark across the celestial divide.',
+    color: 'border-purple-500/40 text-purple-300',
+  },
+  {
+    id: 'Puck',
+    name: 'Puck',
+    tagline: 'Energetic & Lively',
+    description: 'Bright, agile, and high-spirited. Perfect for fast-paced character dialogue, game trailers, social teasers, and adventures.',
+    gender: 'Bright / Dynamic',
+    tone: 'Vibrant, Fast-paced, Playful',
+    sampleText: 'Hold on tight! If my calculations are right, we have approximately three seconds before gravity decides to reverse itself!',
+    color: 'border-cyan-500/40 text-cyan-300',
+  },
+  {
+    id: 'Kore',
+    name: 'Kore',
+    tagline: 'Warm & Composed',
+    description: 'Elegant, soothing, and articulate. Designed for storytelling, emotional character narratives, poetic lore, and guided visual tours.',
+    gender: 'Warm / Articulate',
+    tone: 'Poetic, Graceful, Soothing',
+    sampleText: 'Listen closely to the whispering trees. They remember centuries before the modern towers broke the silent horizon.',
+    color: 'border-fuchsia-500/40 text-fuchsia-300',
+  },
+];
+
+export const SAMPLE_PROMPTS = [
+  {
+    title: 'Enchanted Twilight Forest',
+    prompt: 'A beautiful fantasy forest at twilight, a young explorer standing beside a glowing river, magical butterflies flying through the air, cinematic camera movement, volumetric lighting, detailed 3D environment, atmospheric fog, and a dreamy color palette.',
+    style: '3d_cinematic' as const,
+  },
+  {
+    title: 'Rainy Neo-Shibuya Rooftop',
+    prompt: 'A cyberpunk courier with holographic visor gazing at flying aerocars through torrential neon rain, chrome reflections on wet puddles, towering holographic dragon billboard in background, cinematic low angle pan.',
+    style: 'cyberpunk' as const,
+  },
+  {
+    title: 'Sky Island Windmill Shrine',
+    prompt: 'A floating sky island with ancient mossy stone windmill, gentle pink cherry blossom petals swirling in the summer breeze, dramatic billowing cloudscape, warm afternoon sunlight, hand-painted aesthetic.',
+    style: '2d_anime' as const,
+  },
+  {
+    title: 'Clay Wizard & Tiny Dragon',
+    prompt: 'A quirky miniature clay wizard offering a glowing thimble to a curious baby felt dragon, tactile clay fingerprints, warm studio desk lamp lighting, soft wool smoke puffs, charming stop-motion animation.',
+    style: 'stop_motion' as const,
+  },
+  {
+    title: 'Abyssal Bioluminescent Leviathan',
+    prompt: 'Deep underwater trench exploration submarine encountering a majestic glowing jellyfish leviathan, ultra-clear deep sea water, realistic particulates, lens flare from submarine searchlight, 70mm cinematography.',
+    style: 'photorealistic' as const,
+  },
+  {
+    title: 'Retro Cyber Dungeon Arcade',
+    prompt: 'Pixel art isometric dungeon with glowing purple crystal torches, animated pixel water fountain, hero holding a glowing sword, retro 16-bit dungeon crawler aesthetic with nostalgic color gradients.',
+    style: 'pixel_art' as const,
+  },
+];

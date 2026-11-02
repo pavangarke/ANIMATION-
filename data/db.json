@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": "user_default_01",
+      "email": "pavangarke7869@gmail.com",
+      "name": "Pavan Garke",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "createdAt": "2026-10-26T11:22:04.619Z",
+      "tier": "pro",
+      "generationsCount": 14,
+      "passwordHash": "f132bd356c4f1b12fc956e8617974d34698571fb83ee5c4ce25a66f2f0af0311b5652b93d271a777a3fe0e2c1b571ec0be27d2379b3462e4eef7dab2321a4e7c",
+      "salt": "db036867e94f54364bb4d06d85246aa4"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_01",
+      "userId": "user_default_01",
+      "title": "Enchanted Twilight Sanctum",
+      "prompt": "A beautiful fantasy forest at twilight with glowing river and butterflies",
+      "enhancedPrompt": "A breathtaking fantasy forest canopy at deep twilight, glowing turquoise river flowing between luminescent moss-covered rocks, swarms of iridescent magical butterflies floating gracefully, cinematic anamorphic camera pan, volumetric fog, octane render 8k.",
+      "styleId": "3d_cinematic",
+      "outputType": "video",
+      "aspectRatio": "16:9",
+      "status": "completed",
+      "mediaUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+      "duration": 8,
+      "createdAt": "2026-10-24T11:22:04.619Z",
+      "updatedAt": "2026-10-24T11:22:04.619Z",
+      "isDraft": false,
+      "metadata": {
+        "model": "gemini-3.8-flash",
+        "motionIntensity": "high",
+        "resolution": "1920x1080"
+      }
+    },
+    {
+      "id": "proj_02",
+      "userId": "user_default_01",
+      "title": "Neo-Tokyo Dystopian Rain",
+      "prompt": "Cyberpunk rainy rooftop with flying aerocars and neon reflections",
+      "enhancedPrompt": "A futuristic cyberpunk courier perched on a rainy high-rise terrace in Neo-Tokyo, holographic visor displaying glowing flight corridors, reflections of purple and electric cyan neon in puddles, cinematic slow-motion drizzle, raytraced wet asphalt.",
+      "styleId": "cyberpunk",
+      "outputType": "image",
+      "aspectRatio": "16:9",
+      "status": "completed",
+      "mediaUrl": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1200&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "2026-10-25T17:22:04.620Z",
+      "updatedAt": "2026-10-25T17:22:04.620Z",
+      "isDraft": false,
+      "metadata": {
+        "model": "gemini-3.8-flash",
+        "motionIntensity": "medium",
+        "resolution": "1920x1080"
+      }
+    },
+    {
+      "id": "proj_03",
+      "userId": "user_default_01",
+      "title": "Celestial Odyssey Prologue",
+      "prompt": "Cinematic voiceover narration for sci-fi space expedition",
+      "styleId": "3d_cinematic",
+      "outputType": "video",
+      "aspectRatio": "16:9",
+      "status": "completed",
+      "voicePersona": "Zephyr",
+      "scriptText": "Across the dead silence of the Orion rift, the navigational beacon flashed three distinct pulses. We were no longer alone.",
+      "mediaUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1200&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+      "duration": 12,
+      "createdAt": "2026-10-26T05:22:04.620Z",
+      "updatedAt": "2026-10-26T05:22:04.620Z",
+      "isDraft": false,
+      "metadata": {
+        "model": "gemini-3.8-flash-lite-tts"
+      }
+    },
+    {
+      "id": "proj_04",
+      "userId": "user_default_01",
+      "title": "Ghibli Meadow Shrine WIP",
+      "prompt": "Floating sky island with pink petals swirling in sunny wind",
+      "styleId": "2d_anime",
+      "outputType": "animation_preview",
+      "aspectRatio": "1:1",
+      "status": "ready",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "2026-10-26T09:22:04.620Z",
+      "updatedAt": "2026-10-26T09:22:04.620Z",
+      "isDraft": true
+    }
+  ],
+  "history": [
+    {
+      "id": "hist_01",
+      "userId": "user_default_01",
+      "projectId": "proj_01",
+      "type": "video",
+      "prompt": "A beautiful fantasy forest at twilight with glowing river and butterflies",
+      "enhancedPrompt": "A breathtaking fantasy forest canopy at deep twilight, glowing turquoise river flowing between luminescent moss-covered rocks, swarms of iridescent magical butterflies floating gracefully, cinematic anamorphic camera pan, volumetric fog, octane render 8k.",
+      "styleId": "3d_cinematic",
+      "status": "completed",
+      "mediaUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "2026-10-24T11:22:04.620Z",
+      "model": "gemini-3.8-flash",
+      "settingsSummary": "16:9 | 3D Cinematic | 8s | Ultra Motion"
+    },
+    {
+      "id": "hist_02",
+      "userId": "user_default_01",
+      "projectId": "proj_02",
+      "type": "image",
+      "prompt": "Cyberpunk rainy rooftop with flying aerocars and neon reflections",
+      "styleId": "cyberpunk",
+      "status": "completed",
+      "mediaUrl": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80",
+      "createdAt": "2026-10-25T17:22:04.620Z",
+      "model": "gemini-3.8-flash",
+      "settingsSummary": "16:9 | Cyberpunk | High Quality"
+    },
+    {
+      "id": "hist_03",
+      "userId": "user_default_01",
+      "projectId": "proj_03",
+      "type": "voiceover",
+      "prompt": "Across the dead silence of the Orion rift, the navigational beacon flashed three distinct pulses. We were no longer alone.",
+      "voicePersona": "Zephyr",
+      "status": "completed",
+      "createdAt": "2026-10-26T05:22:04.620Z",
+      "model": "gemini-3.8-flash-lite-tts",
+      "settingsSummary": "Zephyr Voice | Cinematic & Expressive | English US"
+    }
+  ]
+}

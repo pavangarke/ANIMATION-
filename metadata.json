@@ -1,0 +1,8 @@
+{
+  "name": "AnimAI Studio",
+  "description": "Imagine It. Animate It. Bring It to Life. Professional AI-powered animation, video, image, and voiceover studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
